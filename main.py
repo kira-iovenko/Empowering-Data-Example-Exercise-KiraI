@@ -10,6 +10,7 @@ import GWCutilities as util
 # as a pandas DataFrame
 lwd=pd.read_csv("livwell135.csv")
 
+
 #Change x here:
 plt.hist(x='DP_decide_money_p', data=lwd, edgecolor='white', bins=10)
 
