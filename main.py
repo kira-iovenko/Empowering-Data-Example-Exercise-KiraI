@@ -12,10 +12,10 @@ lwd=pd.read_csv("livwell135.csv")
 
 
 #Change x here:
-plt.hist(x='DP_decide_money_p', data=lwd, edgecolor='white', bins=10)
+plt.hist(x='DP_owns_house_p', data=lwd, edgecolor='white', bins=10)
 
 #Change x-label here:
-plt.xlabel("Women currently married or in union who were paid cash for their work, who decide alone how their money earned is spent (%)")
+plt.xlabel("Women owning a house alone or jointly (%)")
 
 plt.ylabel("Number of Data Points")
 plt.show()
