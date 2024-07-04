@@ -12,10 +12,10 @@ lwd=pd.read_csv("livwell135.csv")
 
 
 #Change x here:
-plt.hist(x='HL_smoke_cig_p', data=lwd, edgecolor='white', bins=10)
+plt.hist(x='HL_smoke10_p', data=lwd, edgecolor='white', bins=10)
 
 #Change x-label here:
-plt.xlabel("Women who smoke cigarettes (%)")
+plt.xlabel("Women who smoke >10 cigarettes in the last 24 hours (%)")
 
 plt.ylabel("Number of Data Points")
 plt.show()
